@@ -1,6 +1,5 @@
 let tarefas = [];
 
-// Loop para gerenciar as tarefas
 while (true) {
     let acao = prompt("O que você deseja fazer? (adicionar/remover/atualizar/listar/sair)");
 
