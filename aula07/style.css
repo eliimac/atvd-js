@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #3cd3a9);
+    color: #000;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #001f3f;
+    margin-top: 10px; /* Mais perto do topo */
+    margin-bottom: 30px; /* Distância ajustada do formulário */
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 500;
+    color: #001f3f;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #3cd3a9;
+    box-shadow: 0 0 5px rgba(60, 211, 169, 0.5);
+  }
+  
+  button {
+    background-color: #001f3f;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #004080;
+    box-shadow: 0 4px 6px rgba(0, 31, 63, 0.3);
+  }
+  
+  .result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #001f3f;
+    margin-top: 20px;
+  }
